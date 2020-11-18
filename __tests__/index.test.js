@@ -52,7 +52,7 @@ describe('is31Flavors', ()=>{
 });
 describe('addFlavor', ()=>{
     it('addFlavor returns array with new flavor at beginning', ()=>{
-        expect(functions.addFlavor('Rainbow Sherbert', originalFlavors)).toEqual([
+        expect(functions.addFlavor(originalFlavors, 'Rainbow Sherbert')).toEqual([
             'Rainbow Sherbert',
             'Banana Nut Fudge',
             'Black Walnut',
